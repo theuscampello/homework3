@@ -12,7 +12,7 @@ class Aluno(models.Model):
     description = models.TextField()
     #created_at  = models.DateTimeField(auto_now_add=True)
     #updated_at = models.DateTimeField(auto_now=True)
-   # user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)                                                              
+    #user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)                                                              
                                                                     
     def __str__(self):
         return self.nome
